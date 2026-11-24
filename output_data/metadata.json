@@ -1,0 +1,32 @@
+{
+  "config": {
+    "experiment_id": "EXP-FINAL-003",
+    "grid_size": 30,
+    "patch_size": 30,
+    "densities": [
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5
+    ],
+    "maps_per_density": 500,
+    "seed": 42,
+    "device": "cpu",
+    "cnn_epochs": 10,
+    "cnn_lr": 0.001,
+    "cnn_batch_size": 256,
+    "warmup_runs": 3,
+    "measurement_runs": 3
+  },
+  "environment": {
+    "os": "Darwin 27.2.0",
+    "processor": "arm",
+    "python_version": "3.13.2",
+    "torch_version": "2.14.1",
+    "numpy_version": "2.5.4",
+    "cpu_threads": 1,
+    "device": "cpu",
+    "note": "Single-threaded CPU mode is a REPRODUCIBILITY CONDITION, not a simulation of automotive edge hardware."
+  }
+}
